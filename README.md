@@ -17,6 +17,8 @@ Follow these steps to run the application :
 5. Access the app.
    http://localhost:8000
 
+API List :
+
 1. GET : '/api/books/' -> list_books
 2. POST : '/api/books/add/' -> add_book
 3. GET : '/api/books/<int:book_id>/' -> get_book
