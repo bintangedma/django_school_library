@@ -17,15 +17,15 @@ Follow these steps to run the application :
 5. Access the app.
    http://localhost:8000
 
-GET : '/api/books/' -> list_books
-POST : '/api/books/add/' -> add_book
-GET : '/api/books/<int:book_id>/' -> get_book
-DELETE : '/api/books/delete/<int:book_id>/' -> delete_book
-GET : '/api/student/borrowed/' -> borrowed_books
-POST : '/api/student/renew/<int:book_id>/' -> renew_book
-PUT : '/api/librarian/check/' -> check_borrowed_books
-POST : '/api/librarian/check_by_user/' -> check_by_user
-POST : '/api/librarian/borrow/<int:book_id>/' -> borrow_book
-POST : '/api/librarian/return/<int:book_id>/' -> return_book
+1. GET : '/api/books/' -> list_books
+2. POST : '/api/books/add/' -> add_book
+3. GET : '/api/books/<int:book_id>/' -> get_book
+4. DELETE : '/api/books/delete/<int:book_id>/' -> delete_book
+5. GET : '/api/student/borrowed/' -> borrowed_books
+6. POST : '/api/student/renew/<int:book_id>/' -> renew_book
+7. PUT : '/api/librarian/check/' -> check_borrowed_books
+8. POST : '/api/librarian/check_by_user/' -> check_by_user
+9. POST : '/api/librarian/borrow/<int:book_id>/' -> borrow_book
+10. POST : '/api/librarian/return/<int:book_id>/' -> return_book
 
    
